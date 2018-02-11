@@ -56,4 +56,4 @@ install.packages("plyr")
 library("plyr")
 data3 <- aggregate(.~ subject + activity, data, mean)
 data3 <- data2[order(data2$subject, data2$activity),]
-write.table(data2, file = "subjectactivityaverage.txt", row.name=FALSE)
+write.table(data3, file = "subjectactivityaverage.txt", row.name=FALSE)
