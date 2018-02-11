@@ -12,7 +12,7 @@ Then I used rbind function to bind y_train to y_test, x_train to x_test, and str
 
 B. Extracts only the measurements on the mean and standard deviation for each measurement.
 
-I used grep function to locate the mean and std values and assign it to "data1"
+I used grep function to locate the mean and std values and assign it to "data"
 
 C. Uses descriptive activity names to name the activities in the data set
 
